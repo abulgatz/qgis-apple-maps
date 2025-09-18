@@ -1,4 +1,5 @@
 <!DOCTYPE connections>
 <qgsXYZTilesConnections version="1.0">
-    <xyztiles name="Apple Proxy" url="http://localhost/tile?style=7&amp;size=2&amp;scale=1&amp;z={z}&amp;x={x}&amp;y={y}" referer="" authcfg="" http-header:referer="" tilePixelRatio="2" zmin="0" zmax="21" username="" password=""/>
+    <xyztiles name="Apple Maps Map Proxy" url="http://localhost:8080/ti/tile?style=0&amp;size=1&amp;scale=2&amp;lang=en&amp;poi=0&amp;labels=0&amp;tint=light&amp;emphasis=standard&amp;z={z}&amp;x={x}&amp;y={y}" referer="" authcfg="" http-header:referer="" tilePixelRatio="2" zmin="0" zmax="21" username="" password=""/>
+    <xyztiles name="Apple Maps Satellite Proxy" url="http://localhost:8081/tile?style=7&amp;size=2&amp;scale=1&amp;z={z}&amp;x={x}&amp;y={y}" referer="" authcfg="" http-header:referer="" tilePixelRatio="2" zmin="0" zmax="21" username="" password=""/>
 </qgsXYZTilesConnections>
